@@ -1,0 +1,39 @@
+void main() {
+ 
+  String superHeroName = "Midnight Starring";
+  // Our hero is an aspiring developer.
+  
+  int numberOfSpecialisations = 3;
+  // Our hero is not afraid of any number of challenges.
+  
+  double hoursStudied = 63.45;
+  // Our hero gives all his time to his mission.  
+    
+  bool dartDeveloper = true;
+  // Midnight Starring is a true hero.
+  
+  List specialisationName = ['computerEssentials', 'dartWithFlutter', 'dataBase'];
+  //These are our heros special powers.
+  
+  
+  
+  Map specialisationProficiencyPercentage = {
+    
+    'computerEssentials': 90,
+    
+    'dartWithFlutter': 100,
+    
+    'dataBase': 80,
+    // Our hero is kicking serious butt!
+  }
+ ; 
+  
+  dartDeveloper == true ? 
+    print('$superHeroName is completing $numberOfSpecialisations PLP subjects, namely $specialisationName. His proficiency in percentage for each subject is $specialisationProficiencyPercentage after $hoursStudied hours of effort!'):
+  print('Try harder!');
+  
+  
+}
+
+
+
